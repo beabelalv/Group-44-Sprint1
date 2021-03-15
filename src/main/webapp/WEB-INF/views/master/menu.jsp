@@ -19,13 +19,13 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
-						<acme:menu-suboption code="master.menu.anonymous.david-barragan" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.beatriz-beltran" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.daniel-caro" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.antonio-gonzalez" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.vicente-soria" action="http://www.example.com/"/>
-			<acme:menu-suboption code="master.menu.anonymous.daniel-muñoz" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://stackoverflow.com"/>
+						<acme:menu-suboption code="master.menu.anonymous.david-barragan" action="https://elpais.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.beatriz-beltran" action="https://www.twitch.tv/"/>
+			<acme:menu-suboption code="master.menu.anonymous.daniel-caro" action="https://www.us.es/"/>
+			<acme:menu-suboption code="master.menu.anonymous.antonio-gonzalez" action="https://www.adidas.es/"/>
+			<acme:menu-suboption code="master.menu.anonymous.vicente-soria" action="https://www.adidas.es/"/>
+			<acme:menu-suboption code="master.menu.anonymous.daniel-muñoz" action="https://www.chess.com/home"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
