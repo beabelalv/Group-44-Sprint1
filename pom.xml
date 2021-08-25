@@ -21,7 +21,7 @@
 	<name>Acme One</name>
 	<description>This is the new version of the project, called Acme One &amp; Testing.</description>
 
-	<artifactId>Acme-One</artifactId>
+	<artifactId>Group-44</artifactId>
 	<packaging>war</packaging>
 
 	<parent>
